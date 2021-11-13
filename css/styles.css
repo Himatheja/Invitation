@@ -1,0 +1,108 @@
+body {
+    background-color: #CDF0EA;
+}
+
+#img-left {
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    border-radius: 120px;
+}
+
+#img-right {
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    top: 150px;
+    right: 250px;
+    border-radius: 120px;
+}
+
+ #top-left-corner {
+    width:  192px;
+    height: 190px;
+    transform: scaleX(-1);
+    position: absolute;
+	top: 0;
+	left: 0;
+    padding: 20px;
+}
+
+ #top-right-corner {
+    width:  192px;
+    height: 190px;
+    position: absolute;
+	top: 0;
+	right: 0%;
+    padding: 20px;
+}
+
+ #bottom-left-corner {
+    width:  192px;
+    height: 190px;
+    transform: rotate(180deg);
+    position: absolute;
+	bottom: 0%;
+	left: 0;
+    padding: 20px;
+}
+
+ #bottom-right-corner {
+    width:  192px;
+    height: 190px;
+    transform: rotate(180deg) scaleX(-1);
+    position: absolute;
+    bottom: 0%;
+	right: 0%;
+    padding: 20px;
+}
+
+#table-style {
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 80px;
+}
+
+#centered-bold-text {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #2F86A6;
+}
+
+#centered-name-text{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #3E7C17;
+    text-transform: uppercase;
+}
+
+#normal-text-top {
+    margin-top: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: #2F86A6;
+}
+
+#normal-text {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #2F86A6;
+}
+
+#sub-heading {
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    color: #464660;
+}
+
+#details {
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    color: #6D8299;
+}
