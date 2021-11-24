@@ -1,12 +1,25 @@
+@font-face {
+    font-family: 'Lobster Two', cursive;
+    src: url('../fonts/LobsterTwo-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PT Sans', sans-serif;
+    src: url('../fonts/PTSans-Italic.ttf') format('truetype');
+}
+
 body {
     background-color: #CDF0EA;
 }
 
 #img-top {
-    width: 50%;
-    height: 50%;
-    border-radius: 50%;
+    width: 70%;
+    height: 70%;
+    border-radius: 70%;
     align-self: center;
+    border-style: solid;
+    border-color: #1597E5;
+    border-width: 5px;
 }
 
 #align-center {
@@ -27,6 +40,7 @@ body {
     margin-top: -200px;
     padding-left: 10%;
     padding-right: 10%;
+    margin-bottom: 30px;
 }
 
 #top-div {
@@ -60,49 +74,65 @@ body {
     transform: rotate(180deg) scaleX(-1);
 }
 
-#table-style {
-    width: 100%;
-    justify-content: space-between;
-    padding-left: 200px;
-    padding-right: 200px;
-    margin-top: 80px;
+#div-desktop {
+    align-items: center;
+    margin-top: 20px;
 }
 
 #centered-bold-text {
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #2F86A6;
+    font-family: 'Lobster Two', cursive;
+    color: #1E3163;
+    font-size: 24px;
 }
 
 #centered-name-text{
     text-align: center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #3E7C17;
+    font-family: 'PT Sans', sans-serif;
+    color: #B91646;
+    font-size: 26px;
+}
+
+#normal-title-top {
+    margin-top: 100px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    color: #1E3163;
+    font-size: 26px;
+    text-decoration: underline;
 }
 
 #normal-text-top {
-    margin-top: 100px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Lobster Two', cursive;
     text-align: center;
-    color: #2F86A6;
+    color: #1E3163;
+    font-size: 20px;
 }
 
 #normal-text {
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #2F86A6;
+    font-family: 'Lobster Two', cursive;
+    color: #1E3163;
+    font-size: 20px;
 }
 
 #sub-heading {
     text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-transform: uppercase;
-    color: #464660;
+    font-family: 'Lobster Two', cursive;
+    color: #142F43;
+    font-size: 24px;
 }
 
 #details {
     text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-transform: uppercase;
-    color: #6D8299;
+    font-family: 'Lobster Two', cursive;
+    color: #2E4C6D;
+    margin-top: -10px;
+}
+
+#divider-line {
+    border: 0;
+    height: 55px;
+    background-image: url('../images/type_7.png');
+    background-repeat: no-repeat;
 }
